@@ -279,7 +279,7 @@ JAVA_RUNTIME_TOOLCHAIN_TYPE = "@bazel_tools//tools/jdk:runtime_toolchain_type"
 def extract_java_runtime(target, ctx, dep_targets):
     runtime = None
 
-    if java_common.JavaRuntimeInfo in target:  # Bazel 5.4.0 way
+    if java_common.JavaRuntimeInfo in target:  # Bazel 6.1.1 way
         runtime = target[java_common.JavaRuntimeInfo]
     elif JAVA_RUNTIME_TOOLCHAIN_TYPE in ctx.toolchains:  # Bazel 6.0.0 way
         runtime = ctx.toolchains[JAVA_RUNTIME_TOOLCHAIN_TYPE].java_runtime

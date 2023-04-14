@@ -86,9 +86,9 @@ scala_repositories()
 # ======================================================================================================================
 # io_bazel - for protobuf
 
-IO_BAZEL_TAG = "5.4.0"
+IO_BAZEL_TAG = "6.1.1"
 
-IO_BAZEL_SHA = "d9e96269e67d270976a9c4ae6e81b86f54fceb736627bf0a1ba9816ec60d2e78"
+IO_BAZEL_SHA = "904f4b639784e3789ce4af8c17f407232fae5da0a1ef0cdf89499235452884d3"
 
 http_archive(
     name = "io_bazel",
@@ -100,9 +100,9 @@ http_archive(
 # ======================================================================================================================
 # googleapis - for build protos
 
-GOOGLEAPIS_TAG = "5.4.0"
+GOOGLEAPIS_TAG = "6.1.1"
 
-GOOGLEAPIS_SHA = "d9e96269e67d270976a9c4ae6e81b86f54fceb736627bf0a1ba9816ec60d2e78"
+GOOGLEAPIS_SHA = "904f4b639784e3789ce4af8c17f407232fae5da0a1ef0cdf89499235452884d3"
 
 http_archive(
     name = "googleapis",
