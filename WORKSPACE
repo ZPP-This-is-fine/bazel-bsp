@@ -206,7 +206,7 @@ maven_install(
         "org.scala-lang:scala-library:2.13.10",
         "com.github.zpp-This-is-fine:build-server-protocol:rust-toolchain-host",
         "com.google.protobuf:protobuf-java:3.22.3",
-        "io.grpc:grpc-stub:1.54.1",
+        "io.grpc:grpc-stub:1.55.1",
         "io.grpc:grpc-netty:1.54.1",
     ],
     fetch_sources = True,
