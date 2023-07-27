@@ -57,9 +57,9 @@ http_archive(
 # ======================================================================================================================
 # io_bazel_rules_scala - required by bazel_sonatype
 
-IO_BAZEL_RULES_SCALA_TAG = "5.0.0"
+IO_BAZEL_RULES_SCALA_TAG = "6.0.0"
 
-IO_BAZEL_RULES_SCALA_SHA = "141a3919b37c80a846796f792dcf6ea7cd6e7b7ca4297603ca961cd22750c951"
+IO_BAZEL_RULES_SCALA_SHA = "d39aceb39808da3ee5d84f8d6e460be0568e946da71698fc1414fc696765200a"
 
 http_archive(
     name = "io_bazel_rules_scala",
