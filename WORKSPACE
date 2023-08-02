@@ -207,7 +207,7 @@ maven_install(
         "com.github.zpp-This-is-fine:build-server-protocol:resolved-targets-workspace",
         "com.google.protobuf:protobuf-java:3.22.3",
         "io.grpc:grpc-stub:1.54.1",
-        "io.grpc:grpc-netty:1.54.1",
+        "io.grpc:grpc-netty:1.57.1",
     ],
     fetch_sources = True,
     repositories = [
